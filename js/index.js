@@ -8,10 +8,10 @@ function onEachFeature(feature, layer) {
         }
         if (feature.properties.level) {
             switch(feature.properties.level) {
-                case 1: popupContent = popupContent + 'Классик <br>';
-                case 2: popupContent = popupContent + 'Классик+ <br>';
-                case 3: popupContent = popupContent + 'Бизнес <br>';
-                case 4: popupContent = popupContent + 'Бизнес+ <br>';
+                case 1: popupContent = popupContent + 'Классик <br>'; break
+                case 2: popupContent = popupContent + 'Классик+ <br>'; break
+                case 3: popupContent = popupContent + 'Бизнес <br>'; break
+                case 4: popupContent = popupContent + 'Бизнес+ <br>'; break
             }
         }
 
